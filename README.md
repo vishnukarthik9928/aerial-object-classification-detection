@@ -43,7 +43,6 @@ Accurate identification between birds and drones is critical for:
 - OpenCV
 - NumPy & Pandas
 - Matplotlib / Seaborn
-- YOLOv8 (Ultralytics)
 - Streamlit
 
 ---
@@ -59,7 +58,3 @@ Accurate identification between birds and drones is critical for:
   - Validation
   - Test
 
-### 📌 Object Detection Dataset (YOLOv8 Format)
-- 3319 images
-- YOLO format annotation files (`.txt`)
-- Bounding box format:
