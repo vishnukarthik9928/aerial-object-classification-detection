@@ -12,11 +12,9 @@ img = img.resize((224,224))
 img_array = np.array(img)/255.0
 img_array = np.expand_dims(img_array,axis=0)
 
-prediction = model.predict(img_array)
+prediction = model.predict(img_array)[0][0]
 
-print("Raw prediction:", prediction)
-
-prediction = prediction[0][0]
+print("Prediction score:", prediction)
 
 if prediction > 0.5:
     print("Prediction: Drone")
